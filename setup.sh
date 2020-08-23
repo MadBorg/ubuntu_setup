@@ -7,10 +7,11 @@ find . -type f -iname "*.sh" -exec chmod +x {} \;
 ./apt_setup/aptSetup.sh 
 # - setting username and email for git
 ./github/gitMAdBorgConfig.sh 
-
 # - Setup python
-./python/setup.sh &
+./python/setup.sh 
 # - clone repos
-./uio/cloneRepos.sh &
+./uio/cloneRepos.sh 
 # - Install rust
-./rust/setup.sh &
+./rust/setup.sh 
+
+echo "DONE!!"
