@@ -1,48 +1,33 @@
-# Packages
+# Script for setting up an ubuntu environment
 
-## Git config
+## To run:
 
-### Private user
-
-```bash
-
-git config --global user.name MadBorg
-git config --global user.email rednas.1604@gmail.com
-
-```
-
-### Enterprise user
-
-
-## Pyenv
-
-1. make sure pip is working
-
-...
-
-2. install pyenv with prerequisites
-
-url: https://github.com/pyenv/pyenv
-
-Prerequisites:
+might need sudo
 
 ```bash
 
-sudo apt-get install -y build-essential libssl-dev zlib1g-dev libbz2-dev \
-libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
-xz-utils tk-dev libffi-dev liblzma-dev python-openssl git
+./setup.sh
 
 ```
 
-Pyenv:
+## Setup:
 
-```bash
+### Apt
 
-$ curl https://pyenv.run | bash
-$ exec $SHELL
+Updated and upgrades
 
-```
+### Git
 
-For update: $ pyenv update
+setting defualt usrname and email
 
+### Python
 
+setting up pip and pyenv
+
+### Cone UiO Repos
+
+cloning repos from txt file in dir
+
+### Install Rust
+
+Installing rus
