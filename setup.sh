@@ -5,9 +5,9 @@ find . -type f -iname "*.sh" -exec chmod +x {} \;
 
 # - Updating apt
 exec ./apt_setup/aptSetup.sh 
-
 # - setting username and email for git
-exec ./github/gitMAdBorgConfig.sh &
+exec ./github/gitMAdBorgConfig.sh 
+
 # - Setup python
 exec ./python/setup.sh &
 # - clone repos
